@@ -31,10 +31,11 @@ else
     if tar -czf "$BACKUP_FILE" -C "$PROJECT_DIR" data \
        && tar -tzf "$BACKUP_FILE" > /dev/null 2>&1; then
 
-        echo "Sao luu thanh cong!"
-        echo "File: $BACKUP_FILE"
-
-        echo "$(date '+%Y-%m-%d %H:%M:%S') | backup_$TIME.tar.gz | THANH CONG" >> "$LOG_FILE"
+echo "Sao luu thanh cong!"
+echo "File: $BACKUP_FILE"
+echo "Dung luong file sao luu:"
+du -h "$BACKUP_FILE"
+echo "$(date '+%Y-%m-%d %H:%M:%S') | backup_$TIME.tar.gz | THANH CONG" >> "$LOG_FILE"
 
     else
         echo "Sao luu that bai!"
