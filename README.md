@@ -4,7 +4,7 @@
 
 - **Họ và tên:** Lê Phú Khang
 - **Mã sinh viên:** 2400081
-- **Lớp:** K4828-CNTT1
+- **Lớp:** K4828/CNTT1
 - **Môn học:** Linux và phần mềm mã nguồn mở
 
 ## 2. Giới thiệu
